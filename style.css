@@ -1,0 +1,44 @@
+body{
+    background-color: #ee555f;
+    text-align: center;
+}
+
+#total{
+    color: black;
+    font-size: 47px;
+}
+
+#cookie{
+    background-image: url(https://cdn-icons-png.flaticon.com/256/11433/11433298.png);
+    background-size: 17px;
+    background-repeat: none;
+    color: rgb(49, 29, 1);
+    font-size: 17px;
+    height: 56px;
+    border: 1.9px solid #fff000;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+#cookie:active{
+    transform: scale(0.9);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#reset{
+    cursor: pointer;
+    background: #ee454e;
+    color: #fff000;
+    width: 100px;
+    height: 37px;
+    border: 2px solid #ea777e;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+    border-radius: 4px;
+}
+#reset:hover{
+    background: #ea978a;
+}
+#reset:active{
+    transform: scale(0.9);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
