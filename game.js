@@ -26,7 +26,7 @@ function reset(){
     console.log("Cookie Amount is:", amount, "Type:", typeof amount);
 };
 
-if(amount == 100){
+if(amount.value == 100){
     console.log("The amount is 100!");
 
     let winAudio = new Audio("win.mp3");
